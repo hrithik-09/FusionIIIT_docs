@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-11-10T03:39:11.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PgGH9M3YVZNPP2fhTFGS" version="22.1.0" type="device">
+  <diagram name="Page-1" id="CeXeeccMl_ffqKduCF9d">
+    <mxGraphModel dx="1050" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-1" value="student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="298" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-2" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="106" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-3" value="faculty" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="113" y="298" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-4" value="staff" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="204" y="298" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="M73xS9pFDPsFbuRvYWyM-2" source="M73xS9pFDPsFbuRvYWyM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="63" y="296" as="sourcePoint" />
+            <mxPoint x="437" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="M73xS9pFDPsFbuRvYWyM-3" target="M73xS9pFDPsFbuRvYWyM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="301" as="sourcePoint" />
+            <mxPoint x="437" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="M73xS9pFDPsFbuRvYWyM-4" target="M73xS9pFDPsFbuRvYWyM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="301" as="sourcePoint" />
+            <mxPoint x="437" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-8" value="mark as read" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="169" width="114" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-9" value="mark as unread" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="231" width="110" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-10" value="view notification" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="106" width="108" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-11" value="delete notification" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="292" width="119" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="M73xS9pFDPsFbuRvYWyM-11" target="M73xS9pFDPsFbuRvYWyM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="312" as="sourcePoint" />
+            <mxPoint x="437" y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="M73xS9pFDPsFbuRvYWyM-2" target="M73xS9pFDPsFbuRvYWyM-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="312" as="sourcePoint" />
+            <mxPoint x="437" y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="M73xS9pFDPsFbuRvYWyM-2" target="M73xS9pFDPsFbuRvYWyM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="312" as="sourcePoint" />
+            <mxPoint x="437" y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="M73xS9pFDPsFbuRvYWyM-9" target="M73xS9pFDPsFbuRvYWyM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="312" as="sourcePoint" />
+            <mxPoint x="437" y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M73xS9pFDPsFbuRvYWyM-17" value="&lt;h1 style=&quot;text-align: justify;&quot;&gt;Note&lt;/h1&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Notifiaction panel should be able to retrieve any announcement made or any status change through any of the department and it should be displayed to authorized personnel only&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="531" y="135" width="205" height="235" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
